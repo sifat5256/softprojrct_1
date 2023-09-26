@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/homepage.jpg'),
+            image: AssetImage('assets/img.png'),
             fit: BoxFit.cover,
 
           )
@@ -21,9 +21,7 @@ class HomePage extends StatelessWidget {
           //mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 80,
-            ),
+
             //Expanded(child: Text('Welcome To Our Home Rent App',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w700,color: Colors.purpleAccent),)),
             //Text('Are You Looking a home for rent?'),
             Container(
